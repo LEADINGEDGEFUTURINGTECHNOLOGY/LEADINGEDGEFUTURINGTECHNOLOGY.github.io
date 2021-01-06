@@ -1,798 +1,1048 @@
+
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Title -->
+      <title>Leading Edge | Training,Workshops,projects and internships</title>
+      <!-- Font Google -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,500,600,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <!-- Bootstrap Css -->
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Font Awesome Css -->
+      <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+      <!-- Magnific Popup Css -->
+      <link href="assets/css/magnific-popup.css" rel="stylesheet">
+      <!-- Owl Carousel Css -->
+      <link href="assets/css/owl.carousel.css" rel="stylesheet">
+      <!-- Main Css -->
+      <link href="assets/css/style.css" rel="stylesheet">
+      <link href="assets/css/list.css" rel="stylesheet">
+      <!-- Responsive Css -->
+      <link href="assets/css/responsive.css" rel="stylesheet">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <style media="screen">
+      .card_title{
+        zoom: 180%;
+        /* margin-top: 20%; */
+      }
+        .b1{
+          height: 350px;
+          /* width: 500px; */
+          background-image:url("assets/img/blog/blog1.jpg");
+          background-size:cover;
+          transform: scale(1);
+        	transition: .3s ease-in-out;
+          margin-bottom: 15px;
+          color: white;
+          opacity: 0.9;
+        }
+        .b1:hover{
+          transform: scale(1.05);
+          opacity: 1;
+        }
+        .b2{
+          height: 350px;
+          /* width: 500px; */
+          background-image:url("assets/img/blog/blog2.jpg");
+          background-size:cover;
+          transform: scale(1);
+        	transition: .3s ease-in-out;
+          margin-bottom: 15px;
+          color: white;
+          opacity: 0.9;
+        }
+        .b2:hover{
+          transform: scale(1.05);
+          opacity: 1;
+        }
+        .b3{
+          height: 350px;
+          /* width: 500px; */
+          background-image:url("assets/img/blog/blog3.jpg");
+          background-size:cover;
+          transform: scale(1);
+        	transition: .3s ease-in-out;
+          margin-bottom: 15px;
+          color: white;
+          opacity: 0.9;
+        }
+        .b3:hover{
+          transform: scale(1.05);
+          opacity: 1;
+        }
+        @media (min-width: 576px){
+    .modal-dialog {
+        max-width: 75%;
+        margin: 1.75rem auto;
+    }
+}
 
-  <title>Mamba Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+@media only screen and (max-width: 768px) {/*mobile*/
+  .header {
+      background-color: #122448;
+      box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+      -webkit-transition: .3s;
+      transition: .3s;
+      padding: 5px 0;
+  }
+  .logo{
+    width: 70%!important;
+  }
+    }
+  .logo{
+    width: 20%;
+    position: relative;
+    top: -20px;
+  }
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+.modal{
+  padding-top: 5%;
+}
+.social{
+  zoom:200%;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url()!important;
+}
+      </style>
+   </head>
+   <body>
+      <!-- Header Area Start -->
+      <header class="header header-fixed sticky">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                     <a class="navbar-brand logo" href="#"><img src="assets/img/me.jpg" alt="" style="padding-top:10px;"></a>
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="outline:none;">
+                     <span class="navbar-toggler-icon" style="color:white;font-size:36px;position:relative;top:10px;">
+                       <i class="fa fa-bars"></i>
+                     </span>
+                     </button>
+                     <div class="collapse navbar-collapse ml-auto mainmenu" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                           <li><a href="#home">Home</a></li>
+                           <li><a href="#about">About</a></li>
+                           <li><a href="#training">Training</a></li>
+                           <li><a href="#services">Services</a></li>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Mamba - v2.5.0
-  * Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
-
-<body>
-
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="icofont-envelope"></i><a href="mailto:contact@example.com">info@leadingedgeft.com</a>
-        <i class="icofont-phone"></i> +91 6379873127, +91 8668128493
-      </div>
-      <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="skype"><i class="icofont-skype"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-
-      <div class="logo float-left">
-        <!-- <h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a class="navbar-brand logo" href="#"><img src="assets/img/me.jpg" alt="" style="padding-top:10px;"></a>
-      </div>
-
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Training</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">R & D</a></li>
-          <li><a href="#team">Testimonials</a></li>
-          <!-- <li><a href="#team">Contact US</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li> -->
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-1.jpg');">
-            <div class="carousel-container">
-              <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Leadingedge Futuring Technologies</span></h2>
-                <p class="animate__animated animate__fadeInUp" style="font-size: 28px;">Educate - Iterate - Innovate</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-              </div>
+                           <li><a href="#experience">R & D</a></li>
+                           <li><a href="#testimonials">Testimonials</a></li>
+                           <!-- <li><a href="#blog">Blog</a></li> -->
+                           <li><a href="#contact">Contact</a></li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
             </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.jpg');">
-            <div class="carousel-container">
-              <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-              </div>
+         </div>
+      </header>
+      <!-- Header Area End -->
+      <!-- Welcome Area Start -->
+      <section class="welcome-area" id="home">
+         <div class="container h-100">
+            <div class="row h-100 align-items-center">
+               <div class="col-xl-10 mx-auto">
+                  <div class="welcome-content">
+                     <h4><span>Leading Edge Futuring Technology</span></h4>
+                    <center>
+                     <ul>
+                     	<li>Educate</li>
+                     	<li>-</li>
+                     	<li>Iterate</li>
+                     	<li>-</li>
+                     	<li>Innovate</li>
+                     </ul>
+                   </center>
+					 <!-- <a href="" class="box-btn">contact me</a> -->
+                  </div>
+               </div>
             </div>
-          </div>
+         </div>
+      </section>
+      <!-- Welcome Area End -->
 
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg');">
-            <div class="carousel-container">
-              <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="row no-gutters">
-          <!-- <div class="col-lg-6 video-box"> -->
-            <!-- <div class="col-md-4">
-              <div class="about-img">
-                <img src="assets/img/me.jpg" alt="" />
-              </div>
-            </div> -->
-            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> -->
-          <!-- </div> -->
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
-
-            <div class="section-title">
-              <h2>About Us</h2>
-              <p><span style="font-weight: bold;">Leading Edge FT,</span> an educational institution and R/D based product Development Company. Undertake all kind of Aero Modeling, Robotics, 3D printing turnkey projects and provide Industrial Automation solutions. Render our service and support all over India and around the Globe.</p>
-            </div>
-
-            <!-- <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div> -->
-
-            <ul>
+	  <!-- About Area Start -->
+	  <section class="about-area pt-100 pb-100" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="about-img">
+						<img src="assets/img/me.jpg" alt="" />
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="about-desc">
+						<h3 style="color:#122448;text-decoration:overline;">Leading Edge</h3>
+						<h4>professional career development company</h4>
+						<p>Leading Edge FT, an educational institution and R/D based product Development Company. Undertake all kind of Aero Modeling, Robotics, 3D printing turnkey projects and provide Industrial Automation solutions. Render our service and support all over India and around the Globe.</p>
+						<!-- <p>Your content will be posted here, Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here</p> -->
+						<ul>
 							<li><i class="fa fa-angle-double-right"></i> Design & Consultancy </li>
 							<li><i class="fa fa-angle-double-right"></i> Simulation </li>
               <li><i class="fa fa-angle-double-right"></i> 3D printing </li>
 							<li><i class="fa fa-angle-double-right"></i> RC-ATV</li>
               <li><i class="fa fa-angle-double-right"></i> Artificial Intelligence</li>
+						</ul>
+						<ul>
 							<li><i class="fa fa-angle-double-right"></i> Aeromodelling</li>
 							<li><i class="fa fa-angle-double-right"></i> Robotics and Industrial Automation</li>
               <li><i class="fa fa-angle-double-right"></i> Drone technology</li>
 							<li><i class="fa fa-angle-double-right"></i> Internet of Things</li>
 						</ul>
+						<!-- <a href="#contact" class="box-btn ml-auto" style="background-color:#122448;">Join us</a> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	  </section>
+	  <!-- About Area End -->
 
-          </div>
+	  <!-- Services Area Start -->
+	  <!-- Services Area End -->
+<!--Training -->
+<!-- Projectss Area End -->
+<section class="projects-area pb-100 pt-100" id="training" style="background-color:#122448;color:white;">
+  <br><br>
+   <div class="container-fluid">
+      <div class="row">
+  <div class="col-xl-8 mx-auto text-center">
+    <div class="section-title">
+      <h4> Training</h4>
+      <p style="color:white;">Train for Industry</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- <h2>Carousel Example</h2> -->
+  <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol> -->
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="assets/img/slider/1.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>One</h3>
+          <p>Thank you</p> -->
         </div>
-
       </div>
-    </section><!-- End About Us Section -->
 
-    <!-- ======= About Lists Section ======= -->
-    <section class="about-lists">
-      <div class="container">
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
-            <span>01</span>
-            <h4>Lorem Ipsum</h4>
-            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-            <span>02</span>
-            <h4>Repellat Nihil</h4>
-            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-            <span>03</span>
-            <h4> Ad ad velit qui</h4>
-            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <span>04</span>
-            <h4>Repellendus molestiae</h4>
-            <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
-            <span>05</span>
-            <h4>Sapiente Magnam</h4>
-            <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="500">
-            <span>06</span>
-            <h4>Facilis Impedit</h4>
-            <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
-          </div>
-
+      <div class="item">
+        <img src="assets/img/slider/2.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Two</h3>
+          <p>Thank you</p> -->
         </div>
-
       </div>
-    </section><!-- End About Lists Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section class="counts section-bg">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
-            <div class="count-box">
-              <i class="icofont-simple-smile" style="color: #20b38e;"></i>
-              <span data-toggle="counter-up">232</span>
-              <p>Happy Clients</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="icofont-document-folder" style="color: #c042ff;"></i>
-              <span data-toggle="counter-up">521</span>
-              <p>Projects</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="400">
-            <div class="count-box">
-              <i class="icofont-live-support" style="color: #46d1ff;"></i>
-              <span data-toggle="counter-up">1,463</span>
-              <p>Hours Of Support</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
-            <div class="count-box">
-              <i class="icofont-users-alt-5" style="color: #ffb459;"></i>
-              <span data-toggle="counter-up">15</span>
-              <p>Hard Workers</p>
-            </div>
-          </div>
-
+      <div class="item">
+        <img src="assets/img/slider/3.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
         </div>
-
       </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Services</h2>
+      <div class="item">
+        <img src="assets/img/slider/4.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
         </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="icofont-computer"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="icofont-earth"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="icofont-image"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="icofont-settings"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="icofont-tasks-alt"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
-        </div>
-
       </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Our Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="section-title">
-          <h2>Our Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <div class="item">
+        <img src="assets/img/slider/5.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
         </div>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-eye"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="icofont-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End Our Portfolio Section -->
-
-    <!-- ======= Our Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Our Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+      <div class="item">
+        <img src="assets/img/slider/6.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
         </div>
-
-        <div class="row">
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End Our Team Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
+      <div class="item">
+        <img src="assets/img/slider/7.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
         </div>
-
-        <div class="row  d-flex align-items-stretch">
-
-          <div class="col-lg-6 faq-item" data-aos="fade-up">
-            <h4>Non consectetur a erat nam at lectus urna duis?</h4>
-            <p>
-              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-            </p>
-          </div>
-
-          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="100">
-            <h4>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h4>
-            <p>
-              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-            </p>
-          </div>
-
-          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="200">
-            <h4>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h4>
-            <p>
-              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
-            </p>
-          </div>
-
-          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="300">
-            <h4>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h4>
-            <p>
-              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-            </p>
-          </div>
-
-          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="400">
-            <h4>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h4>
-            <p>
-              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-            </p>
-          </div>
-
-          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="500">
-            <h4>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</h4>
-            <p>
-              Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-            </p>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact Us</h2>
+      <div class="item">
+        <img src="assets/img/slider/8.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
         </div>
-
-        <div class="row">
-
-          <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="info-box">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p> No 19, 2 nd floor, Sifa builders, near Yamaha showroom,<br>Perungalathur, Chennai-63, Tamilnadu, India</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="info-box">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@leadingedgeft.com</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="info-box ">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+91 6379873127<br>+91 8668128493</p>
-            </div>
-          </div>
-
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="col-lg-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End Contact Us Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <!-- <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Mamba</h3>
-            <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
+      <div class="item">
+        <img src="assets/img/slider/9.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
+        </div>
+      </div>
+      <div class="item">
+        <img src="assets/img/slider/10.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
+        </div>
+      </div>
+      <div class="item">
+        <img src="assets/img/slider/11.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
+        </div>
+      </div>
+      <div class="item">
+        <img src="assets/img/slider/12.jpg" alt="New york" style="width:100%;">
+        <div class="carousel-caption">
+          <!-- <h3>Three</h3>
+          <p>Thank you</p> -->
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/ -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="b1" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/training/Aeromodelling.jpg');">
+          <h1 class="card_title">Aero Modelling</h1>
+          <br>
+          <!-- <p style="font-size:15px;">Aeromodelling is the activity involving design, development and flying of small air vehicles. It is a very exciting and interesting way to learn, apply and understand principles.</p> -->
+          <br><br>
+          <center><a href="" class="box-btn" style="background-color:#122448;" data-toggle="modal" data-target="#t1">View more</a></center>
       </div>
     </div>
-  </footer> -->
-  <!-- End Footer -->
+    <div class="col-lg-4 col-md-6">
+      <div class="b2" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/training/mobile robotics.jpeg')">
+        <h1 class="card_title">ROS, Mobile Robotics and IoT</h1>
+        <br>
+        <!-- <p style="font-size:15px;">IoT devices are generally designed to handle specific tasks. Robots need to react to unexpected conditions that their developer may not have anticipated. </p> -->
+        <!-- <br><br> -->
+        <center><a href="" class="box-btn" style="background-color:#122448;"data-toggle="modal" data-target="#t2">View more</a></center>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="b3" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/training/3D printing training.jpg')">
+        <h1 class="card_title">3D <br> printing</h1>
+        <br>
+        <!-- <p style="font-size:15px;">The 3D printing process builds a three-dimensional object from a computer-aided design (CAD) model, usually by successively adding material layer by layer.</p> -->
+        <br><br>
+        <center><a href="" class="box-btn" style="background-color:#122448;"data-toggle="modal" data-target="#t3">View more</a></center></p>
+      </div>
+    </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="b1" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/training/space science.jpg')">
+              <h1 class="card_title">Space Science and Rocketry</h1>
+              <br>
+              <!-- <p style="font-size:15px;">Now, there is a saying, ‘It’s not rocket science’, meaning that something isn’t complicated. Which is quite funny, because rocket science is, in its principles, actually very simple! </p> -->
+              <!-- <br><br> -->
+              <center><a href="" class="box-btn" style="background-color:#122448;" data-toggle="modal" data-target="#t4">View more</a></center>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="b2" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/training/Drone Pilotng.jpg')">
+            <h1 class="card_title"><br>Drone Technology</h1>
+            <br>
+            <!-- <p style="font-size:15px;">A drone, in technological terms, is an unmanned aircraft, a drone is a flying robot that can be remotely controlled or fly autonomously by software-controlled flight plans.</p> -->
+            <br><br>
+            <center><a href="" class="box-btn" style="background-color:#122448;"data-toggle="modal" data-target="#t5">View more</a></center>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="b3" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/training/industrial automation and robotics.jpg')">
+            <h1 class="card_title">Industrial Automation and Robotics</h1>
+            <br>
+            <!-- <p style="font-size:15px;">Robotics industrial automation is changing the face of production. Manufacturers around the globe are implementing some form of automation to become more efficient. </p> -->
+            <!-- <br><br> -->
+            <center><a href="" class="box-btn" style="background-color:#122448;"data-toggle="modal" data-target="#t6">View more</a></center></p>
+          </div>
+        </div>
+          </div>
+    </div>
+</section>
+<!--Training-->
+	   <!-- Projectss Area Start -->
+      <section class="projects-area pb-100 pt-100" id="services">
+         <div class="container">
+            <div class="row">
+				<div class="col-xl-8 mx-auto text-center">
+					<div class="section-title">
+						<h4>Services</h4>
+						<p>Services for New Economy</p>
+					</div>
+				</div>
+			</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="b1" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/services/aerial Mapping.jpg')">
+                <h1 class="card_title">Aerial Mapping</h1>
+                <br>
+                <!-- <p style="font-size:15px;">Aerial Mapping Services Arch Aerial offers aerial mapping and topographic mapping services through the use of its UAS (commonly known as drones). Aerial mapping has been made easy and accessible thanks to the ease that comes with using drones for aerial services.</p> -->
+                <br><br>
+                <!-- <center><a href="" class="box-btn" style="background-color:#122448;" data-toggle="modal" data-target="#s1">View more</a></center> -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="b2" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/services/aerial Surveillance.jpg')">
+              <h1 class="card_title">Aerial Surveillance</h1>
+              <br>
+              <!-- <p style="font-size:15px;">Surveillance is the monitoring of behavior, activities, or information for the purpose of influencing, managing or directing. This can include observation from a distance by means of electronic equipment, such as closed-circuit television (CCTV), or interception of electronically transmitted information, such as Internet traffic.</p> -->
+              <br><br>
+              <!-- <center><a href="" class="box-btn" style="background-color:#122448;"data-toggle="modal" data-target="#s2">View more</a></center> -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="b3" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/services/search and Rescue operation.jpg')">
+              <h1 class="card_title">Search and Rescue Operation</h1>
+              <br>
+              <!-- <p style="font-size:15px;">Search and rescue is the search for and provision of aid to people who are in distress or imminent danger. The general field of search and rescue includes many specialty sub-fields, typically determined by the type of terrain the search is conducted over.</p> -->
+              <br><br>
+              <!-- <center><a href="" class="box-btn" style="background-color:#122448;"data-toggle="modal" data-target="#s3">View more</a></center>erferendis repudiandae sequi. </p> --> -->
+            </div>
+          </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="b1" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/services/drone delivery.jpg')">
+                    <h1 class="card_title">Drone Delivery</h1>
+                    <br>
+                    <!-- <p style="font-size:15px;">A delivery drone is an autonomous vehicle, often a UAV, used to transport packages, food or other goods.</p> -->
+                    <br><br>
+                    <!-- <center><a href="" class="box-btn" style="background-color:#122448;" data-toggle="modal" data-target="#s4">View more</a></center> -->
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="b2" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/services/thermal imaging.png')">
+                  <h1 class="card_title">Thermal Imaging</h1>
+                  <br>
+                  <!-- <p style="font-size:15px;">Infrared thermography, thermal imaging, and thermal video are examples of infrared imaging science. Thermographic cameras usually detect radiation in the long-infrared range of the electromagnetic spectrum and produce images of that radiation, called thermograms. </p> -->
+                  <br><br>
+                  <!-- <center><a href="" class="box-btn" style="background-color:#122448;"data-toggle="modal" data-target="#s5">View more</a></center> -->
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="b3" style="padding:40px;text-transform:capitalize;background-image:url('assets/img/services/3D printing.jpg')">
+                  <h1 class="card_title">3D<br>printing</h1>
+                  <br>
+                  <!-- <p style="font-size:15px;">The 3D printing Process Builds A Three-Dimensional Object From A Computer-Aided Design (CAD) Model, Usually By Successively Adding Material Layer By Layer. -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+</p>
+                  <br><br>
+                  <!-- <center><a href="" class="box-btn" style="background-color:#122448;"data-toggle="modal" data-target="#s6">View more</a></center>erferendis repudiandae sequi. </p>  -->
+                </div>
+              </div>
+                </div>
+          </div>
+         </div>
+      </section>
+      <!-- Projectss Area End -->
+      <!-- R & D -->
+      <section class="about-area pt-100 pb-100" id="experience" style="background-color:#EAEAED">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="about-img">
+              <img src="assets/img/rd2.png" alt="" style="padding-top:20%;">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="about-desc">
+              <h3 style="color:#122448;text-decoration:overline;">Leading Edge</h3>
+              <h4>Reaseach and Development</h4>
+              <p>New product design and development is often a crucial factor in the survival of a company. In a global industrial landscape that is changing fast, firms must continually revise their design and range of products.  Our R&D covers various sectors such as Autonomous Vehicles, Artificial Intelligence, UAV, 3D printing Technology, IoT, Space Science, etc., To make people’s life easier is our motto. We hope the balance between Invention and Innovation.</p>
+              <!-- <p>Your content will be posted here, Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here Your content will be posted here</p> -->
+              <!-- <a href="#contact" class="box-btn" style="background-color:#122448;">Join us</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- R & D -->
+	  <!-- Testimonials Area Start -->
+	  <section class="testimonials-area pt-100 pb-100 text-center" id="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 mx-auto text-center">
+					<div class="section-title">
+						<h4>what clients say</h4>
+						<p>About our contribution to their career development,</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-8 mx-auto">
+					<div class="testimonials owl-carousel">
+						<div class="single-testimonial">
+              <h4>Aswin <span>Bachelor of Engineering: Automobile</span></h4><br>
+							<img src="assets/img/testimonials/Aswin.png" alt="" />
+							<p>Nice place to understand the basics of working of robots.</p>
+						</div>
+						<div class="single-testimonial">
+              <h4>Dinesh Kumar<span>Bachelor of Engineering: Electrical and Electronics</span></h4><br>
+							<img src="assets/img/testimonials/dinesh kumar.png" alt="" />
+							<p>The internship was simply awesome 💯 and learned more about robotics.</p>
+						</div>
+						<div class="single-testimonial">
+              <h4>Haveenish <span>Bachelor of Engineering: Electrical and Electronics</span></h4><br>
+							<img src="assets/img/testimonials/Haveenish.png" alt="" />
+							<p>Simply awesome. Worth to attend the class.</p>
+						</div>
+            <div class="single-testimonial">
+              <h4>Jeya Noel Jerald <span>Bachelor of Engineering: Automobile</span></h4><br>
+							<img src="assets/img/testimonials/jeya noel jerald.png" alt="" />
+							<p>Nice place to understand the basics of working of robots.</p>
+						</div>
+            <div class="single-testimonial">
+              <h4>kamalesh <span>Bachelor of Engineering: Automobile</span></h4><br>
+							<img src="assets/img/testimonials/kamalesh.png" alt="" />
+							<p>The place and environment is good. Anna’s are kind and student friendly. The overall environment is good👍.</p>
+						</div>
+            <div class="single-testimonial">
+              <h4>Mohan<span>Bachelor of Engineering: Automobile</span></h4><br>
+							<img src="assets/img/testimonials/Mohan.png" alt="" />
+							<p>It's so nice environment to gain the knowledge and so friendly staff's its best to join intenship for engineering students.</p>
+						</div>
+            <div class="single-testimonial">
+              <h4>Nafees Ahmed Sayed <span>Bachelor of Engineering: Automobile</span></h4><br>
+							<img src="assets/img/testimonials/nafees ahmed sayed.png" alt="" />
+							<p>Excellent. Brilliant. Had a great experience.</p>
+						</div>
+            <div class="single-testimonial">
+              <h4>Sarath<span>Bachelor of Engineering: Automobile</span></h4><br>
+							<img src="assets/img/testimonials/Sarath.png" alt="" />
+							<p>Excellent coaching!!!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </section>
+	  <!-- Testimonials Area End -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+	  <!-- Team Area Start -->
+	  <!-- <section class="team-area pt-100 pb-100" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 mx-auto text-center">
+					<div class="section-title">
+						<h4>my team</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="single-team">
+						<img src="assets/img/team/team1.jpg" alt="" />
+						<div class="team-hover">
+							<h4>john doe <span></span></h4>
+							<a href=""><i class="fa fa-facebook"></i></a>
+							<a href=""><i class="fa fa-twitter"></i></a>
+							<a href=""><i class="fa fa-youtube"></i></a>
+							<a href=""><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="single-team">
+						<img src="assets/img/team/team2.jpg" alt="" />
+						<div class="team-hover">
+							<h4>john doe <span></span></h4>
+							<a href=""><i class="fa fa-facebook"></i></a>
+							<a href=""><i class="fa fa-twitter"></i></a>
+							<a href=""><i class="fa fa-youtube"></i></a>
+							<a href=""><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="single-team">
+						<img src="assets/img/team/team3.jpg" alt="" />
+						<div class="team-hover">
+							<h4>john doe <span></span></h4>
+							<a href=""><i class="fa fa-facebook"></i></a>
+							<a href=""><i class="fa fa-twitter"></i></a>
+							<a href=""><i class="fa fa-youtube"></i></a>
+							<a href=""><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </section> -->
+	  <!-- Team Area End -->
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+	  <!-- Blog Area Start -->
+	  <!-- <section class="blog-area pt-100 pb-100" id="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 mx-auto text-center">
+					<div class="section-title">
+						<h4>latest articles</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="single-blog">
+					   <div class="blog-img">
+						  <img src="assets/img/blog/blog1.jpg" alt="" />
+					   </div>
+					   <h4><a href="">Focus on commitment</a></h4>
+					   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eos molestiae illo quam nemo pariatur sint.</p>
+					   <a href="" class="box-btn">read more</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="single-blog">
+					   <div class="blog-img">
+						  <img src="assets/img/blog/blog2.jpg" alt="" />
+					   </div>
+					   <h4><a href="">Focus on commitment</a></h4>
+					   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eos molestiae illo quam nemo pariatur sint.</p>
+					   <a href="" class="box-btn">read more</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="single-blog">
+					   <div class="blog-img">
+						  <img src="assets/img/blog/blog3.jpg" alt="" />
+					   </div>
+					   <h4><a href="">Focus on commitment</a></h4>
+					   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eos molestiae illo quam nemo pariatur sint.</p>
+					   <a href="" class="box-btn">read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </section> -->
+	  <!-- Blog Area End -->
 
-</body>
 
+	  <!-- Contact Area Start -->
+	  <section class="contact-area pt-100 pb-100" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 mx-auto text-center">
+					<div class="section-title">
+						<h4>contact us</h4>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-7">
+					<div class="contact-form">
+						<h4 class="page-title">write me now
+						</h4>
+						<form method="post" action="contact.php">
+              <input type="text" placeholder="name"name="name" required/>
+							<input type="email" placeholder="email" name="email" required/>
+							<input type="number" placeholder="phone" name="phone" required/>
+              <input type="text" placeholder="Company / Organization name" name="org" required/>
+							<textarea placeholder="message" required name = "message"></textarea>
+							<input type="submit" value="send" name="submit"/>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="contact-address">
+						<ul>
+							<li><i class="fa fa-map-marker"></i>  No 19, 2 nd floor, Sifa builders, near Yamaha showroom, Perungalathur, Chennai-63, Tamilnadu, India</li>
+							<li><i class="fa fa-phone"></i> +91 6379873127, +91 8668128493</li>
+							<li><i class="fa fa-envelope"></i>Products & Services:<br>info@leadingedgeft.com <br> Training: <br> edu@leadingedgeft.com</li>
+							<li><i class="fa fa-globe"></i>  www.leadingedgeft.com</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </section>
+	  <!-- Contact Area End -->
+
+	  <!-- Footer Area Stat -->
+	  <div class="footer-area" style="padding-top:50px!important;padding-bottom:0px!important;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12 text-center">
+					<p>Leading Edge</p>
+          <br>
+					<a href="https://www.facebook.com/leadingedgeft"><i class="fa fa-facebook social"></i></a>
+          <a href="https://www.linkedin.com/in/leadingedgeft/"><i class="fa fa-linkedin social"></i></a>
+          <a href="https://www.instagram.com/leadingedgeft/"><i class="fa fa-instagram social"></i></a>
+					<a href="https://twitter.com/leadingft"><i class="fa fa-twitter social"></i></a>
+					<a href="https://in.pinterest.com/leadingedgeft/"><i class="fa fa-pinterest social"></i></a>
+          <a href="https://reddit.com/leadingedgeft/"><i class="fa fa-reddit social"></i></a>
+          <br>
+          <span style="position:relative;top:-30px;">
+            This website is developed and maintained by<a href="http://fundevelopers.tech" target="_blank" style="color: #fdbc15">Fundevelopers</a>
+            </span>
+
+				</div>
+			</div>
+		</div>
+	  </div>
+	  <!-- Footer Area End -->
+      <!-- Main JS -->
+      <script src="assets/js/jquery.min.js"></script>
+      <!-- Popper JS -->
+      <script src="assets/js/popper.min.js"></script>
+      <!-- Bootstrap JS -->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- Owl Carousel JS -->
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <!-- Manific Popup JS -->
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <!-- One Page Nav JS -->
+      <script src="assets/js/onepagenav.js"></script>
+      <!-- Counter JS -->
+      <script src="assets/js/jquery.counterup.min.js"></script>
+      <!-- Waypoint JS -->
+      <script src="assets/js/waypoint.min.js"></script>
+	  <!-- Ripples JS -->
+      <script src="assets/js/jquery.ripples.min.js"></script>
+      <!-- Main JS -->
+      <script src="assets/js/main.js"></script>
+    <!-- Training popups -->
+      <div class="modal fade" id="t1" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title"> Aeromodelling</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/training/Aeromodelling.jpg" alt="" class="img-responsive" style="position:relative;top:30%;">
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-5">
+                    <h1>Aeromodelling</h1>
+                    <br>
+                    <div class="list-type5">
+                    <ol>
+                    <li><a style="color:white;">Structural and Design Fabrication</a></li>
+                    <li><a style="color:white;">Electric / Nitro Propulsion</a></li>
+                    <li><a style="color:white;">Flight Control systems</a></li>
+                    <li><a style="color:white;">Transmitter/Receiver systems</a></li>
+                    <li><a style="color:white;">Autonomous Flight</a></li>
+                    <li><a style="color:white;">Simulation</a></li>
+                    <li><a style="color:white;">Ground Control Station and FPV</a></li>
+                    <li><a style="color:white;">Telemetry Communication System</a></li>
+                    <li><a style="color:white;">Model: Rc Aircraft, Gyrocopter, Ornithopter, UAV Fixed Wing, Gliders, Rc Boats, Boomerang, Delta wing Aircraft, Rc Hovercraft</a></li>
+                    </ol>
+                    </div>
+
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal fade" id="t2" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title"> ROS, Mobile Robotics And IoT</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/training/mobile robotics.jpeg" alt="" class="img-responsive" style="position:relative;top:30%;">
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-5">
+                    <h1>ROS, Mobile Robotics And IoT</h1>
+                    <br>
+                    <div class="list-type5">
+                    <ol>
+                    <li><a style="color:white;">IoT Platform Creation</a></li>
+                    <li><a style="color:white;">Data Visualization and Controlling</a></li>
+                    <li><a style="color:white;">Practical Automation</a></li>
+                    <li><a style="color:white;">Arduino based robots</a></li>
+                    <li><a style="color:white;">Raspberry Pi and Embedded Linux</a></li>
+                    <li><a style="color:white;">Machine Learning</a></li>
+                    <li><a style="color:white;">Autonomous Vehicle</a></li>
+                    <li><a style="color:white;">Robotics Operating System(ROS) controlled robots</a></li>
+                    </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal fade" id="t3" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title"> 3D Printing</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/training/3D printing training.jpg" alt="" class="img-responsive" style="position:relative;top:30%;">
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-5">
+                    <h1>3D Printing</h1>
+                    <br>
+                    <div class="list-type5">
+                    <ol>
+                    <li><a style="color:white;">Additive Manufacturing</a></li>
+                    <li><a style="color:white;">Filament Material</a></li>
+                    <li><a style="color:white;">Modeling and extruding materials</a></li>
+                    <li><a style="color:white;">G-Code Processing</a></li>
+                    <li><a style="color:white;">Slicing</a></li>
+                    <li><a style="color:white;">Post Production</a></li>
+                    <li><a style="color:white;">Develop a product</a></li>
+                    </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal fade" id="t4" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title"> Space Science And Rocketry</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/training/space science.jpg" alt="" class="img-responsive" style="position:relative;top:30%;">
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-5">
+                    <h1>Space Science And Rocketry</h1>
+                    <br>
+                    <div class="list-type5">
+                    <ol>
+                    <li><a style="color:white;">Rocketry</a></li>
+                    <li><a style="color:white;">Rover and Lander</a></li>
+                    <li><a style="color:white;">Celestial Observation</a></li>
+                    <li><a style="color:white;">Research and Development</a></li>
+                    <li><a style="color:white;">Astronomy</a></li>
+                    </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal fade" id="t5" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title"> Drone Technology</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/training/Drone Pilotng.jpg" alt="" class="img-responsive" style="position:relative;top:30%;">
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-5">
+                    <h1>Drone Technology</h1>
+                    <br>
+                    <div class="list-type5">
+                    <ol>
+                    <li><a style="color:white;">Multi Rotor drones- Quad , hexa, Octa</a></li>
+                    <li><a style="color:white;">Structural and Design Fabrication</a></li>
+                    <li><a style="color:white;">Electric / Nitro Propulsion</a></li>
+                    <li><a style="color:white;">Flight Control systems</a></li>
+                    <li><a style="color:white;">Transmitter/Receiver systems</a></li>
+                    <li><a style="color:white;">Autonomous Flight</a></li>
+                    <li><a style="color:white;">Simulation</a></li>
+                    <li><a style="color:white;">Ground Control Station and FPV</a></li>
+                    <li><a style="color:white;">Telemetry Communication System</a></li>
+                    </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal fade" id="t6" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title"> Industrial Automation And Robotics</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/training/industrial automation and robotics.jpg" alt="" class="img-responsive" style="position:relative;top:30%;">
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                  <div class="col-md-5">
+                    <h1>Industrial Automation And Robotics</h1>
+                    <br>
+                    <div class="list-type5">
+                    <ol>
+                    <li><a style="color:white;">PLC Programming</a></li>
+                    <li><a style="color:white;">Electrical Systems and Drives</a></li>
+                    <li><a style="color:white;">HMI</a></li>
+                    <li><a style="color:white;">Communication Protocols</a></li>
+                    <li><a style="color:white;">Robotics Basics</a></li>
+                    <li><a style="color:white;">Programming optimization</a></li>
+                    <li><a style="color:white;">Off-Line Programming</a></li>
+                    <li><a style="color:white;">Libraries of simulation</a></li>
+                    <li><a style="color:white;">Kinematics Building for robot</a></li>
+                    <li><a style="color:white;">Programming Robot</a></li>
+                    <li><a style="color:white;">Path planning</a></li>
+                    <li><a style="color:white;">Motion planning</a></li>
+                    </ol>
+                    </div>
+                  </div>
+                  <div class="col-md-1">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+<!-- Training popups -->
+   </body>
 </html>
