@@ -398,11 +398,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero .intro-info h2 {
+#hero .intro-info h1 {
   color: #413e66;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
+}
+
+#hero .intro-info h2 {
+  color: #413e66;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 #hero .intro-info h2 span {
