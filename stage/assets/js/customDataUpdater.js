@@ -50,13 +50,6 @@ const eventSectionData = [
   }
 ];
 
-const countDetails = {
-    'Clients': '524',
-    'Projects': '132',
-    'Students benefited': '6500',
-    'R & D': '87',
-}
-
 const AboutUsDetails = {
     'Title': 'About US',
     'Sub Heading': 'Odio sed id eos et laboriosam consequatur eos earum soluta.',
@@ -124,12 +117,49 @@ const servicesDetails = {
     ]
 }
 
+const whyChooseUsDetails = {
+    title: 'Why choose us?',
+    quote: 'Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.',
+    imageName:'',
+    descriptionParagraphs: [
+        'Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.',
+        'Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur et temporibus. Labore est odio. Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat.',
+    ],
+    points: [
+        {
+            title: 'Corporis dolorem',
+            description: 'Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.',
+            icon: 'bi-bookmarks',
+            iconColor: '#f058dc',
+        },
+        {
+            title: 'Corporis dolorem',
+            description: 'Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.',
+            icon: 'bi-bookmarks',
+            iconColor: '#f058dc',
+        },
+        {
+            title: 'Corporis dolorem',
+            description: 'Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.',
+            icon: 'bi-bookmarks',
+            iconColor: '#f058dc',
+        }
+    ],
+    countDetails: [
+        { key: 'Clients', value: '524'},
+        { key: 'Projects', value: '132'},
+        { key: 'Students benefited', value: '6500'},
+        { key: 'R & D', value: '87'},
+    ],
+}
+
 const eventSection = document.getElementById('events-section');
 
  (function() {
      populateEvents();
      populateAboutUs();
      populateServices();
+     populateWhyChooseUs();
  })();
 
  function populateEvents() {
@@ -198,7 +228,7 @@ const eventSection = document.getElementById('events-section');
                 <p>${AboutUsDetails.quote}</p>
                 <p>${AboutUsDetails.description}</p>
                 <ul>
-                ${pointsHTML}
+                    ${pointsHTML}
                 </ul>
             </div>
             </div>
@@ -235,4 +265,57 @@ const eventSection = document.getElementById('events-section');
     </div>
     </div>
   </section>`
+ }
+
+ function populateWhyChooseUs() {
+    const whyChooseUsDiv = document.getElementById('why-choose-us');
+    let paragraphs = '';
+    let points = '';
+    let counts = '';
+    for (const paragraph of whyChooseUsDetails.descriptionParagraphs) {
+        paragraphs += `<p>${paragraph}</p>`;
+    }
+    for (const point of whyChooseUsDetails.points) {
+        points += `<div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
+        <i class="bi ${point.icon}" style="color: ${point.iconColor};"></i>
+        <h4>${point.title}</h4>
+        <p>${point.description}</p>
+      </div>`
+    }
+    for (const countDetail of whyChooseUsDetails.countDetails) {
+        counts += `<div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="${countDetail.value}" data-purecounter-duration="1" class="purecounter"></span>
+            <p>${countDetail.key}</p>
+          </div>`
+    }
+    whyChooseUsDiv.innerHTML = `<section id="why-us" class="why-us">
+    <div class="container-fluid" data-aos="fade-up">
+
+      <header class="section-header">
+        <h3>${whyChooseUsDetails.title}</h3>
+        <p>${whyChooseUsDetails.quote}</p>
+      </header>
+
+      <div class="row">
+
+        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="why-us-img">
+            <img src="assets/img/WhyChooseUs/defaultImg.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="why-us-content">
+            ${paragraphs}
+            ${points}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row counters" data-aos="fade-up" data-aos-delay="100">
+      ${counts}
+      </div>
+    </div>
+  </section>`;
  }
