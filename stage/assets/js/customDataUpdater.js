@@ -57,11 +57,79 @@ const countDetails = {
     'R & D': '87',
 }
 
+const AboutUsDetails = {
+    'Title': 'About US',
+    'Sub Heading': 'Odio sed id eos et laboriosam consequatur eos earum soluta.',
+    'quote': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    'description': 'Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.',
+    points: [
+        'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Duis aute irure dolor in reprehenderit in voluptate velit.',
+        'Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.',
+        'Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.',
+    ],
+    imageName: 'defaultImg.jpg',
+}
+
+/**
+ * icons avialble at - https://iconify.design/icon-sets/bi
+ * color picker - https://htmlcolorcodes.com/color-picker/
+ */
+const servicesDetails = {
+    title: 'Services',
+    serviceDescription: 'Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.',
+    servicesPalette: [
+        {
+            title: 'Lorem Ipsum',
+            icon: 'bi-briefcase',
+            iconColor: '#ff689b',
+            backgroudColor: '#fceef3',
+            description: 'Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata',
+        },
+        {
+            title: 'Lorem Ipsum',
+            icon: 'bi-briefcase',
+            iconColor: '#ff689b',
+            backgroudColor: '#fceef3',
+            description: 'Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata',
+        },
+        {
+            title: 'Lorem Ipsum',
+            icon: 'bi-briefcase',
+            iconColor: '#ff689b',
+            backgroudColor: '#fceef3',
+            description: 'Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata',
+        },
+        {
+            title: 'Lorem Ipsum',
+            icon: 'bi-briefcase',
+            iconColor: '#ff689b',
+            cbackgroudColor: '#fceef3',
+            description: 'Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata',
+        },
+        {
+            title: 'Lorem Ipsum',
+            icon: 'bi-briefcase',
+            iconColor: '#ff689b',
+            backgroudColor: '#fceef3',
+            description: 'Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata',
+        },
+        {
+            title: 'Lorem Ipsum',
+            icon: 'bi-briefcase',
+            iconColor: '#ff689b',
+            backgroudColor: '#fceef3',
+            description: 'Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata',
+        },
+    ]
+}
 
 const eventSection = document.getElementById('events-section');
 
  (function() {
      populateEvents();
+     populateAboutUs();
+     populateServices();
  })();
 
  function populateEvents() {
@@ -104,4 +172,67 @@ const eventSection = document.getElementById('events-section');
        </div>
      </section>`
 
+ }
+
+ function populateAboutUs() {
+    const aboutUsDiv = document.getElementById('about-us');
+    let pointsHTML = '';
+    for (const point of AboutUsDetails.points) {
+        pointsHTML += `<li><i class="bi bi-check-circle"></i>${point}</li>`;
+    }
+    const aboutUs = 
+    `<section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+        <div class="row">
+
+            <div class="col-lg-5 col-md-6">
+            <div class="about-img" data-aos="fade-right" data-aos-delay="100">
+                <img src="assets/img/AboutUs/${AboutUsDetails.imageName || 'defaultImg.jp'}" alt="">
+            </div>
+            </div>
+
+            <div class="col-lg-7 col-md-6">
+            <div class="about-content" data-aos="fade-left" data-aos-delay="100">
+                <h2>${AboutUsDetails.Title}</h2>
+                <h3>${AboutUsDetails["Sub Heading"]}</h3>
+                <p>${AboutUsDetails.quote}</p>
+                <p>${AboutUsDetails.description}</p>
+                <ul>
+                ${pointsHTML}
+                </ul>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>`
+    aboutUsDiv.innerHTML = aboutUs;
+ }
+
+ function populateServices() {
+    const servicesDiv = document.getElementById('services-div');
+
+    let servicePalette = '';
+    for (const service of servicesDetails.servicesPalette) {
+        servicePalette += `
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
+          <div class="box">
+            <div class="icon" style="background: ${service.backgroudColor};"><i class="bi ${service.icon}" style="color: ${service.iconColor};"></i></div>
+            <h4 class="title"><a href="">${service.title}</a></h4>
+            <p class="description">${service.description}</p>
+          </div>
+        </div>
+        `
+    }
+
+    servicesDiv.innerHTML = `<section id="services" class="services section-bg">
+    <div class="container" data-aos="fade-up">
+      <header class="section-header">
+        <h3>${servicesDetails.title}</h3>
+        <p>${servicesDetails.serviceDescription}</p>
+      </header>
+      <div class="row">
+        ${servicePalette}
+    </div>
+    </div>
+  </section>`
  }
