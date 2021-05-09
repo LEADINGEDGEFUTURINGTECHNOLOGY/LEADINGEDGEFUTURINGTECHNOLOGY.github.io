@@ -54,7 +54,7 @@ const AboutUsDetails = {
     'Title': 'About US',
     'Sub Heading': 'Odio sed id eos et laboriosam consequatur eos earum soluta.',
     'quote': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    'description': 'Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.',
+    'description': 'Lading id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.',
     points: [
         'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         'Duis aute irure dolor in reprehenderit in voluptate velit.',
@@ -74,8 +74,8 @@ const servicesDetails = {
     servicesPalette: [
         {
             title: 'Lorem Ipsum',
-            icon: 'bi-briefcase',
-            iconColor: '#ff689b',
+            icon: 'bi-arrow-repeat',
+            iconColor: '#E2573A',
             backgroudColor: '#fceef3',
             description: 'Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata',
         },
