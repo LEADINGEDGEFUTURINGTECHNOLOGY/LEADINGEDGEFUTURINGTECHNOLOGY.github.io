@@ -319,3 +319,4 @@ const eventSection = document.getElementById('events-section');
     </div>
   </section>`;
  }
+ 
