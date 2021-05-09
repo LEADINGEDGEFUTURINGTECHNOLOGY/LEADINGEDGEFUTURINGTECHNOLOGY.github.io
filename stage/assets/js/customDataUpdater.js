@@ -153,13 +153,209 @@ const whyChooseUsDetails = {
     ],
 }
 
+const featureSection = [
+    {
+        heading: 'Leading Edge',
+        paragraphs: [
+            'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.',
+            'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.',
+        ],
+        photoName: 'buffer.svg',
+        contentPlacement: 'right',
+    },
+    {
+        heading: 'Leading Edge',
+        paragraphs: [
+            'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.',
+            'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.',
+        ],
+        photoName: 'buffer.svg',
+        contentPlacement: 'left',
+    },
+];
+
+const testimonialsData = {
+    heading: 'Testimonials',
+    testimonials: [
+        {
+            name: 'Saul Wilsson',
+            title: 'Ceo & Founder',
+            photoName: 'testimonialSample.jpg',
+            testimonial: 'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.'
+        },
+        {
+            name: 'Saul Wilsson',
+            title: 'Ceo & Founder',
+            photoName: 'testimonialSample.jpg',
+            testimonial: 'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.'
+        },
+        {
+            name: 'Saul Wilsson',
+            title: 'Ceo & Founder',
+            photoName: 'testimonialSample.jpg',
+            testimonial: 'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.'
+        },
+        {
+            name: 'Saul Wilsson',
+            title: 'Ceo & Founder',
+            photoName: 'testimonialSample.jpg',
+            testimonial: 'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.'
+        },
+        {
+            name: 'Saul Wilsson',
+            title: 'Ceo & Founder',
+            photoName: 'testimonialSample.jpg',
+            testimonial: 'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.'
+        },
+        {
+            name: 'Saul Wilsson',
+            title: 'Ceo & Founder',
+            photoName: 'testimonialSample.jpg',
+            testimonial: 'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.'
+        },
+        {
+            name: 'Saul Wilsson',
+            title: 'Ceo & Founder',
+            photoName: 'testimonialSample.jpg',
+            testimonial: 'Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.'
+        },
+    ]
+}
+
+const ourClientsData = {
+    heading: 'Our Clients',
+    clientLogos: ['client-1.png','client-2.png','client-3.png','client-4.png','client-5.png','client-6.png','client-7.png','client-8.png'],
+}
+
+const sendUsDetails = {
+    heading: 'Send us a message', // This text will get converted to caps always
+    description: 'Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.',
+    sendUsLink: 'https://www.google.com',
+}
+
+const pricingData = {
+    heading: 'pricing',
+    description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque',
+    priceDetails: [
+        {
+            title:'Basic Plan',
+            descriptionPoints: ['Odio animi voluptates', 'Odio animi voluptates', 'Odio animi voluptates', 'Odio animi voluptates'],
+            registrationLink: 'xyz',
+            buttonName: 'Register',
+        },
+        {
+            title:'Basic Plan',
+            descriptionPoints: ['Odio animi voluptates', 'Odio animi voluptates', 'Odio animi voluptates', 'Odio animi voluptates'],
+            registrationLink: 'xyz',
+            buttonName: 'Register',
+        },
+        {
+            title:'Basic Plan',
+            descriptionPoints: ['Odio animi voluptates', 'Odio animi voluptates', 'Odio animi voluptates', 'Odio animi voluptates'],
+            registrationLink: 'xyz',
+            buttonName: 'Register',
+        },
+    ],
+}
+
+const ourPortFolioDetails = {
+    heading: 'Our Portfolio',
+    titles: ['Automation', 'Education', 'Aerospace', 'RnD'],
+    contents: [
+        {
+            heading: 'ABC',
+            title: 'Automation',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'Education',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'Aerospace',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'RnD',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'RnD',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'Automation',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'Education',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'Aerospace',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'RnD',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'RnD',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'Automation',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'Education',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'Aerospace',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'RnD',
+            photoName: 'sample.jpg',
+        },
+        {
+            heading: 'ABC',
+            title: 'RnD',
+            photoName: 'sample.jpg',
+        },
+    ]
+}
+
 const eventSection = document.getElementById('events-section');
 
  (function() {
-     populateEvents();
-     populateAboutUs();
-     populateServices();
-     populateWhyChooseUs();
+    populateAboutUs();
+    populateServices();
+    populateWhyChooseUs();
+    populateOurPortFolio();
+    populateEvents();
+    populateAboutUs();
+    populateServices();
+    populateWhyChooseUs();
+    populateFeatures();
+    populateTestimonials();
+    populateOurClients();
+    populatePricingDetails();
+    populateSendUs();
  })();
 
  function populateEvents() {
@@ -319,4 +515,221 @@ const eventSection = document.getElementById('events-section');
     </div>
   </section>`;
  }
- 
+
+ function featureContentRight({ heading, paragraphs, photoName }) {
+     let paragraphContent = '';
+    for (const paragraph of paragraphs) {
+        paragraphContent += `<p>${paragraph}</p>`;
+    }
+    return `
+    <div class="row feature-item">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/features/${photoName}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0" data-aos="fade-left" data-aos-delay="150">
+            <h4>${heading}</h4>
+            ${paragraphContent}
+          </div>
+        </div>`;
+ }
+
+ function featureContentLeft({ heading, paragraphs, photoName }) {
+    let paragraphContent = '';
+    for (const paragraph of paragraphs) {
+        paragraphContent += `<p>${paragraph}</p>`;
+    }
+     return `
+     <div class="row feature-item mt-5 pt-5">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/features/${photoName}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="150">
+          <h4>${heading}</h4>
+          ${paragraphContent}
+          </div>`;
+ }
+
+ function populateFeatures() {
+     const featuresDiv = document.getElementById('features-div');
+     let featureContent = '';
+     for (const feature of featureSection) {
+         const { contentPlacement } = feature;
+        featureContent += `${contentPlacement === 'left' ? featureContentLeft(feature) : featureContentRight(feature)}`;
+     }
+     featuresDiv.innerHTML = `
+     <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+        ${featureContent}
+        </div>
+      </div>
+    </section>`
+ }
+
+ function populateTestimonials() {
+    const { testimonials, heading } = testimonialsData;
+    const testimonialsDiv = document.getElementById('testimonials-div');
+    let testimonialData = '';
+    for (const testimonial of testimonials) {
+        testimonialData += `
+        <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/${testimonial.photoName}" class="testimonial-img" alt="">
+                  <h3>${testimonial.name}</h3>
+                  <h4>${testimonial.title}</h4>
+                  <p>${testimonial.testimonial}</p>
+                </div>
+              </div>
+        `
+    }
+    testimonialsDiv.innerHTML = `
+    <section id="testimonials" class="testimonials">
+    <div class="container" data-aos="zoom-in">
+      <header class="section-header">
+        <h3>${heading}</h3>
+      </header>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+              ${testimonialData}
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>`
+ }
+
+ function populateOurClients() {
+     const { heading, clientLogos } = ourClientsData;
+    const ourClientsDiv = document.getElementById('our-clients-div');
+    let clientLogosUI = '';
+    for (const logo of clientLogos) {
+        clientLogosUI += `
+            <div class="swiper-slide"><img src="assets/img/ourClients/${logo}" class="img-fluid" alt=""></div>
+        `;
+    }
+    ourClientsDiv.innerHTML = `
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+        <header class="section-header">
+          <h3>${heading}</h3>
+        </header>
+        <div class="clients-slider swiper-container">
+          <div class="swiper-wrapper align-items-center">
+            ${clientLogosUI}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    `
+ }
+
+ function populatePricingDetails() {
+    const { heading, description, priceDetails } = pricingData;
+    let pricingQubes = '';
+    for (const priceDetail of priceDetails) {
+        const { title, descriptionPoints, registrationLink, buttonName } = priceDetail;
+        let points = '';
+        for (const point of descriptionPoints) {
+            points += `<li class="list-group-item">${point}</li>`
+        }
+        pricingQubes += `
+        <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card">
+          <div class="card-block">
+            <h4 class="card-title">
+              ${title}
+            </h4>
+            <ul class="list-group">
+              ${points}
+            </ul>
+            <a href="${registrationLink}" target='_blank' class="btn">${buttonName}</a>
+          </div>
+        </div>
+      </div>
+        `;
+    }
+    const pricingDiv = document.getElementById('pricing-div');
+    pricingDiv.innerHTML = `
+    <section id="pricing" class="pricing section-bg wow fadeInUp">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>${heading}</h3>
+          <p>${description}</p>
+        </header>
+        <div class="row flex-items-xs-middle flex-items-xs-center">${pricingQubes}</div>
+      </div>
+    </section>
+    `
+ }
+
+ function populateSendUs() {
+     const { heading, description, sendUsLink } = sendUsDetails;
+    const sendUsDiv = document.getElementById("send-us-div");
+    sendUsDiv.innerHTML = `
+            <div class="form">
+              <h4>${heading}</h4>
+              <p>${description}</p>
+              <div class="text-center"><a  class="btn btn-primary" href="${sendUsLink}" target="_blank">Send Message</a></div>
+            </div>
+    `;
+ }
+
+ function populateOurPortFolio() {
+     const { heading, titles, contents } = ourPortFolioDetails;
+     const ourPortFolioDiv = document.getElementById('our-portfolio-div');
+     let titlesPortion = '';
+     for (const title of titles) {
+        titlesPortion += `<li data-filter=".${title}">${title}</li>`
+     }
+     let portfolioImageData = '';
+     for (const content of contents) {
+         const { heading, title, photoName } = content;
+        portfolioImageData += `
+        <div class="col-lg-4 col-md-6 portfolio-item ${title}">
+        <div class="portfolio-wrap">
+          <img src="assets/img/ourPortFolio/${title}/${photoName}" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4><a>${heading}</a></h4>
+            <p>${title}</p>
+            <div>
+              <a href="assets/img/ourPortFolio/${title}/${photoName}" data-gallery="portfolioGallery" title="${heading}" class="link-preview portfolio-lightbox"><i class="bi bi-plus"></i></a>
+              <!-- <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+        `;
+     }
+
+     ourPortFolioDiv.innerHTML = `
+     <section id="portfolio" class="portfolio section-bg">
+     <div class="container" data-aos="fade-up">
+
+       <header class="section-header">
+         <h3 class="section-title">${heading}</h3>
+       </header>
+
+       <div class="row" data-aos="fade-up" data-aos-delay="100">
+         <div class="col-lg-12">
+           <ul id="portfolio-flters">
+             <li data-filter="*" class="filter-active">All</li>
+             ${titlesPortion}
+           </ul>
+         </div>
+       </div>
+
+       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        ${portfolioImageData}
+
+        </div>
+
+      </div>
+    </section>
+     `
+ }
+    
