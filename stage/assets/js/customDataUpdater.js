@@ -54,7 +54,8 @@ const AboutUsDetails = {
     'Title': 'About US',
     'Sub Heading': 'Educate  Iterate Innovate ',
     'quote': 'LeadingEdge to steer the technology and the keeping a balance between innovation and educating with need of technology world demands and needs to keep itself sustainable and ecological.',
-    'description': 'Lading id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.',
+    'description': ' The latest venture of LeadingEdge Futuring Technology, aims to rise as a leader and carve its own niche in the industry. Established in 2017, we continue to churn out products that save labor, energy and materials while improving quality, accuracy and precision. Our products so far, include the likes of collaborative.We have an extraordinary technical team of engineers who seamlessly combine advanced analytical thinking with bold engineering.Innovating productivity that’s what we do and that’s what we want to do for you.
+    Leadingedge revolutionize customer productivity by delivering the best automation technologies.We are committed to approaching problems with enthusiasm and optimism.',
     points: [
         'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         'Duis aute irure dolor in reprehenderit in voluptate velit.',
